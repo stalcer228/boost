@@ -7,6 +7,7 @@
 #include <boost/asio.hpp>
 #include "message.hpp"
 
+
 using boost::asio::ip::tcp;
 
 typedef std::deque<chat_message> chat_message_queue;
